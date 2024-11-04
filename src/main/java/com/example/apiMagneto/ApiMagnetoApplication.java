@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ApiMagnetoApplication {
+public class eApiMagnetoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ApiMagnetoApplication.class, args);
