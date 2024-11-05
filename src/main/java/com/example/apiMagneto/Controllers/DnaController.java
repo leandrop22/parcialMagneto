@@ -21,7 +21,7 @@ public class DnaController {
         this.dnaService = dnaService;
     }
 
-    @PostMapping("/")
+    @PostMapping
     public ResponseEntity<DnaResponse> checkMutant(@Valid @RequestBody DnaRequest dnaRequest) {
         boolean isMutant = dnaService.analyzeDna(dnaRequest.getDna());
         DnaResponse dnaResponse = new DnaResponse(isMutant);
